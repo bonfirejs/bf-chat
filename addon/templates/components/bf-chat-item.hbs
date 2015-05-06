@@ -1,0 +1,14 @@
+<div class="direct-chat-msg {{messageAlign}}">
+  <div class="direct-chat-info clearfix">
+    <span class="direct-chat-name {{nameAlign}}">
+      {{user.name}}
+    </span>
+    <span class="direct-chat-timestamp {{timeStampAlign}}">
+      {{moment timestamp}}
+    </span>
+  </div>
+  <img class="direct-chat-img" src="{{user.image}}">
+  <div class="direct-chat-text">{{message}}</div>
+</div>
+
+{{yield}}
